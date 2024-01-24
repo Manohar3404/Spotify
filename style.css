@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    color: white;
+}
+body{
+    background-color: rgb(230, 206, 209);
+}
+.nav-container{
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.Spotifylogo-container{
+    
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    
+}
+.Spotifylogo-container span{
+    margin-left: 5px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Spotifylogo{
+    height: 40px;
+    width: 40px;
+  
+}
+.links span{ 
+    margin: 0  0 0 10px ;
+}
+
+.container {
+    padding: 34px;
+    background-image: url("./images/bg.jpg");
+    /* background-size: cover; */
+    width: 70%;
+    min-height: 72vh;
+    background-color: black;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+/* .songlist{
+    padding: 20px;
+} */
+.bottom{
+    background-color: black;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    bottom: 0;
+
+    
+}
+.bottom-range{
+    width: 80vw;
+}
+.controllers{
+color: white;
+font-size: 1.5rem;
+}
+.controllers{
+    margin-top: 10px;
+}
+.songItemContainer{
+    width: 60%;
+    margin-top: 50px;
+}
+.songItem{
+    background-color: white;
+    display: flex;
+    height: 50px;
+   
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    margin: 12px 0;
+
+}
+.songItem img{
+    height: 43px;
+    border-radius: 34px;
+    margin:0 23px;
+
+}
+.songItem span{
+    color: black;
+}
+.playbutton{
+    color: black;
+    cursor: pointer;
+    margin: 0 15px 0 5px;
+}
+.timeStamp{
+    margin: 0 20px;
+}
+.playbutton1{
+    margin: 0 10px;
+    font-size: 2rem;
+}
+.gifnamecontainer{
+    display: flex;
+    height: 5px; */
+    justify-content: space-between;
+    position: absolute;
+    left: 10vw;
+}
+.gif{
+    width: 30px;
+    height: 20px;
+    background-image: url('playing.gif');
+    background-size: cover;
+    margin: 0 20px;
+
+}
