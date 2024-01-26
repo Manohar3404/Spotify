@@ -131,3 +131,26 @@ font-size: 1.5rem;
     transition: 0.3s opacity ease-in;
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* Your existing CSS code here */
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .container {
+        width: 90%;
+    }
+
+    .songItemContainer {
+        width: 80%;
+    }
+
+    .bottom-range {
+        width: 90vw;
+    }
+
+    .gifnamecontainer {
+        left: 5vw;
+    }
+}
