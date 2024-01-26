@@ -98,6 +98,8 @@ body {
     align-items: center;
     border-radius: 34px;
     margin: 12px 0;
+   
+
 }
 
 .songItem img {
@@ -166,3 +168,9 @@ body {
         left: 5vw;
     }
 }
+
+
+.songItem:hover {
+    background-color: #e0e0e0; 
+}
+
