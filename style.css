@@ -55,6 +55,7 @@ body {
     font-family: 'Varela Round', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 .bottom {
@@ -66,6 +67,7 @@ body {
     align-items: center;
     position: sticky;
     bottom: 0;
+    overflow: hidden;
 }
 
 .bottom-range {
@@ -83,8 +85,9 @@ body {
 }
 
 .songItemContainer {
-    width: 60%;
-    margin-top: 50px;
+    width: 70%;
+    /* margin: 0 auto; */
+    overflow-x: hidden;
 }
 
 .songItem {
@@ -101,7 +104,7 @@ body {
     height: 43px;
     width: 43px;
     border-radius: 34px;
-    margin: 0 23px;
+    margin: 0 10px;
 }
 
 .songItem span {
@@ -115,7 +118,7 @@ body {
 }
 
 .timeStamp {
-    margin: 0 20px;
+    margin: 0 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -152,6 +155,7 @@ body {
 
     .songItemContainer {
         width: 100%;
+        overflow-x: hidden;
     }
 
     .bottom-range {
